@@ -1,0 +1,98 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg-base: #0b0f17;
+  --bg-glow: rgba(0, 204, 255, 0.25);
+  --bg-glow-2: rgba(80, 255, 196, 0.2);
+  --card-bg: rgba(12, 18, 30, 0.82);
+  --text-primary: #f5f7ff;
+  --text-secondary: #b6c2d6;
+  --accent: #46f8d4;
+  --accent-strong: #2ee8b7;
+  --border: rgba(255, 255, 255, 0.12);
+  --shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow-strong: 0 24px 80px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='aurora'] {
+  --bg-base: #0b0f17;
+  --bg-glow: rgba(0, 204, 255, 0.35);
+  --bg-glow-2: rgba(80, 255, 196, 0.2);
+  --card-bg: rgba(12, 18, 30, 0.82);
+  --text-primary: #f5f7ff;
+  --text-secondary: #b6c2d6;
+  --accent: #46f8d4;
+  --accent-strong: #2ee8b7;
+  --border: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme='ember'] {
+  --bg-base: #1a0f0a;
+  --bg-glow: rgba(255, 107, 61, 0.32);
+  --bg-glow-2: rgba(251, 186, 94, 0.18);
+  --card-bg: rgba(32, 18, 13, 0.88);
+  --text-primary: #fff6f1;
+  --text-secondary: #f3c9b9;
+  --accent: #ff6b3d;
+  --accent-strong: #ff8d52;
+  --border: rgba(255, 218, 201, 0.15);
+}
+
+[data-theme='coastal'] {
+  --bg-base: #0b1222;
+  --bg-glow: rgba(74, 163, 255, 0.35);
+  --bg-glow-2: rgba(246, 212, 162, 0.2);
+  --card-bg: rgba(14, 24, 45, 0.82);
+  --text-primary: #f6fbff;
+  --text-secondary: #c9d9f0;
+  --accent: #4aa3ff;
+  --accent-strong: #6fc2ff;
+  --border: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme='noir'] {
+  --bg-base: #0a0a0a;
+  --bg-glow: rgba(255, 255, 255, 0.08);
+  --bg-glow-2: rgba(255, 255, 255, 0.05);
+  --card-bg: rgba(18, 18, 18, 0.92);
+  --text-primary: #f5f5f5;
+  --text-secondary: #b3b3b3;
+  --accent: #f5f5f5;
+  --accent-strong: #ffffff;
+  --border: rgba(255, 255, 255, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}
